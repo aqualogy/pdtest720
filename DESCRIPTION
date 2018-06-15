@@ -1,0 +1,32 @@
+Package: pdtest720
+Type: Package
+Title: example package 
+Version: 0.1.0
+Date: 2018-06-15
+Authors@R: c(person("Arnd", "Weber", email = "arnd.weber@bafg.de",
+                    role = c("aut", "cre"), 
+                    comment = c(ORCID = "0000-0002-5973-2770")))
+Description: This is an example package to reproduce issue 720 for pkgdown. The 
+    related issue and discussion can be found here: 
+    \url{https://github.com/r-lib/pkgdown/issues/720}
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
+    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet 
+    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit 
+    amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
+    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed 
+    diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor 
+    sit amet.
+Depends: R (>= 3.2.0)
+Imports: Rdpack
+Suggests: knitr, rmarkdown, stringr, devtools, pkgdown, roxygen2
+RdMacros: Rdpack
+License: MIT + file LICENCE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Collate:
+    'data.R'
+VignetteBuilder: knitr
+URL: https://github.com/aqualogy/pdtest720

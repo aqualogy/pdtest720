@@ -1,0 +1,8 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^_pkgdown\.yml$
+^_install\.R$
+^_build\.R$
+^pkgdown$
+^public$
+^docs$

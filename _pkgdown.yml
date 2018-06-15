@@ -1,0 +1,23 @@
+title: pdtest
+url: https://github.com/aqualogy/pdtest
+destination: docs
+template:
+  params:
+    bootswatch: cosmo
+reference:
+  - title: data
+    desc: datasets
+    contents:
+      - "`df.flys1`"
+      - "`df.flys2`"
+      - "`df.flys3`"
+      - "`df.flys4`"
+      - "`df.flys5`"
+navbar:
+  left:
+    - text: Reference
+      href: reference/index.html
+  right:
+    - text: BfG
+      href: http://www.bafg.de
+
